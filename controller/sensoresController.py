@@ -4,6 +4,7 @@ from bson.json_util import dumps
 
 sensoresController = Blueprint('sensorController', __name__)
 
+
 # Obtener los datos de todos los sensores
 @sensoresController.route('/findAll', methods=['GET'])
 def get_sensors():
